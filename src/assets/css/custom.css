@@ -1,0 +1,38 @@
+/* Custom classes*/
+.blockquote {
+    quotes: none;
+    position: relative;
+    padding: 14px 14px 14px 10px;
+    border-left: 4px solid transparent;
+}
+.blockquote h5 {
+    line-height: 1.5625em;
+    text-transform: none;
+    font-size: 21px;
+    letter-spacing: normal;
+    font-weight: 400;
+    margin: 0!important;
+	color: #353535;
+	}
+	
+	.blockquote.with_quote_icon h5 {
+		padding: 0 0 0 40px;
+	}
+
+	.separator{
+        position: relative;
+        display: block;
+        height: 1px;
+        background-color: transparent;
+        /* margin: 10px 0; */
+    }    
+
+ 
+.separator.transparent {
+    background-color: transparent;
+}
+
+.copyright {
+    background-color: black;
+}
+    
